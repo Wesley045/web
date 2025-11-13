@@ -14,13 +14,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 1000px;
 }
 
 header{
     display: flex;
     height: 100px;
-    width: 800px;
+    width: 1000px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -34,12 +34,16 @@ nav{
     align-items: center;
 }
 
+a{
+    color: black;
+}
+
 .nijmegen-logo{
     display: flex;
     position: relative;
     height: 50px;
     width: 130px;
-    right: 10px;
+    right: 100px;
     border: 1px solid black;
 }
 
@@ -59,7 +63,7 @@ nav{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 800px;
+    width: 1000px;
 
 }
 
@@ -72,13 +76,19 @@ nav{
     margin-bottom: 30px;
 }
 
-.sector-one{
+.container-home-2{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     background-color: white;
-    width: 800px;
+    width: 1000px;
 }
 
+.sector-one{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
 .text-block-1{
     display: flex;
     margin-left: 30px;
@@ -98,20 +108,117 @@ nav{
     width: 300px;
     align-self: flex-start;
     color: #848484;
-        font-size: 20px;
+    font-size: 20px;
 }
 
 .info-block{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-left: 90px;
     background-color: #9481FC;
     height: 400px;
     width: 300px;
     border-radius: 50px;
-
+    color: white;
+    margin-right: 30px;
 }
+
+.info-block-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 350px;
+    width: 220px;
+}
+
+.info-text-block{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-text-png{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.info-png{
+    height: 25px;
+    width: 25px;
+}
+
+.text-small{
+    display: flex;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.fix{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info-text-png-fix{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.sector-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.whats-next-block{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 500px;
+    background-color: #9481FC;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: -60px;
+    color: white;
+}
+
+.whats-next-title{
+    font-family: "Agbalumo", sans-serif;
+    margin-top: 25px;
+    align-self: center;
+    font-size: 22px;
+    color: #9B00B6;
+}
+
+.whats-next-text{
+    align-self: flex-start;
+    padding-inline: 30px;
+    margin-top: 20px;
+}
+
+.whats-next-subtitle{
+    font-family: "Agbalumo", sans-serif;
+    color: #9B00B6;
+}
+
+.whats-next-video{
+    margin-top: 50px;
+    height: 280px;
+    width: 380px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
