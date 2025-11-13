@@ -1,0 +1,160 @@
+body{
+    background: rgb(44, 44, 44);
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    width: 800px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    height: 40px;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nijmegen-logo{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 130px;
+    right: 10px;
+    border: 1px solid black;
+}
+
+.nav-icons{
+    height: 40px;
+    width: 40px;
+}
+
+.black-gap{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    background: rgb(44, 44, 44);
+}
+.container-home-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 800px;
+
+}
+
+.hero-title{
+    display: flex;
+    margin-top: 10px;
+    font-size: 40px;
+    color:#3C0246;
+    font-family: "Agbalumo", sans-serif;
+    margin-bottom: 30px;
+}
+
+.sector-one{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 800px;
+}
+
+.text-block-1{
+    display: flex;
+    margin-left: 30px;
+    height: auto;
+    width: 300px;
+    align-self: flex-start;
+    margin-bottom: 25px;
+    color: #696969;
+    font-size: 20px;
+
+}
+
+.text-block-2{
+    display: flex;
+    margin-left: 30px;
+    height: auto;
+    width: 300px;
+    align-self: flex-start;
+    color: #848484;
+        font-size: 20px;
+}
+
+.info-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    background-color: #9481FC;
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+
+}
+
+
+
+
+
+
+
+
+/* Dit is waar Tim's css begint */
+.container1p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 800px;
+}
+
+.titelp2{
+    display: flex;
+    margin-top: 10px;
+    font-size: 40px;
+    color:#3C0246;
+    font-family: "Agbalumo", sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.text1p2{
+    color: #696969;
+}
+
+.text2p2{
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.programeertalen{
+    position: absolute;
+    height: 300px;
+    width: 535px;
+    left: 64%;
+}
