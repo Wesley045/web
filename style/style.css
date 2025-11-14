@@ -32,6 +32,7 @@ nav{
     width: 600px;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Doppio One', sans-serif;
 }
 
 a{
@@ -64,7 +65,6 @@ a{
     flex-direction: column;
     background-color: white;
     width: 1000px;
-
 }
 
 .hero-title{
@@ -81,34 +81,36 @@ a{
     flex-direction: column;
     background-color: white;
     width: 1000px;
+    height: 780px;
 }
 
 .sector-one{
     display: flex;
     width: 1000px;
     justify-content: space-between;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 .text-block-1{
     display: flex;
-    margin-left: 30px;
+    margin-left: 50px;
     height: auto;
-    width: 300px;
+    width: 420px;
     align-self: flex-start;
     margin-bottom: 25px;
     color: #696969;
     font-size: 20px;
-
+    font-family: 'Doppio One', sans-serif;
 }
 
 .text-block-2{
     display: flex;
-    margin-left: 30px;
+    margin-left: 50px;
     height: auto;
-    width: 300px;
+    width: 420px;
     align-self: flex-start;
     color: #848484;
     font-size: 20px;
+    font-family: 'Doppio One', sans-serif;
 }
 
 .info-block{
@@ -116,10 +118,10 @@ a{
     justify-content: center;
     background-color: #9481FC;
     height: 400px;
-    width: 300px;
+    width: 350px;
     border-radius: 50px;
     color: white;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .info-block-inside{
@@ -128,7 +130,8 @@ a{
     justify-content: space-between;
     margin-top: 25px;
     height: 350px;
-    width: 220px;
+    width: 320px;
+    font-family: 'Doppio One', sans-serif;
 }
 
 .info-text-block{
@@ -136,13 +139,14 @@ a{
     height: 40px;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Doppio One', sans-serif;
 }
 
 .info-text-png{
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .info-png{
@@ -153,7 +157,7 @@ a{
 .text-small{
     display: flex;
     margin: 0px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .fix{
@@ -166,14 +170,14 @@ a{
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .sector-two{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
 }
+
 .whats-next-block{
     display: flex;
     flex-direction: column;
@@ -181,8 +185,8 @@ a{
     width: 500px;
     background-color: #9481FC;
     border-radius: 50px;
-    margin-left: 30px;
-    margin-top: -60px;
+    margin-left: 50px;
+    margin-top: -100px;
     color: white;
 }
 
@@ -198,47 +202,82 @@ a{
     align-self: flex-start;
     padding-inline: 30px;
     margin-top: 20px;
+    font-family: 'Doppio One', sans-serif;
 }
 
 .whats-next-subtitle{
+    font-size: 18px;
     font-family: "Agbalumo", sans-serif;
     color: #9B00B6;
 }
 
 .whats-next-video{
     margin-top: 50px;
-    height: 280px;
-    width: 380px;
+    margin-right: 50px;
+    height: 240px;
+    width: 350px;
+}
+
+.more-about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    width: 1000px;
+    background-color: #00ADC7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about-png{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.png-about-us{
+    height: 30px;
+    width: 30px;
 }
 
 
+footer{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 1000px;
+    background-color: #472A4D;
 
+}
 
+.socials-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.social-png{
+    height: 40px;
+    width: 40px;
+}
 
 /* Dit is waar Tim's css begint */
 .container1p2{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 800px;
+    width: 1000px;
 }
 
 .titelp2{
     display: flex;
+    justify-content: center;
     margin-top: 10px;
     font-size: 40px;
     color:#3C0246;
@@ -249,6 +288,8 @@ a{
 
 .text1p2{
     color: #696969;
+    margin-left: 50px;
+    font-family: 'Doppio One', sans-serif;
 }
 
 .text2p2{
@@ -261,7 +302,238 @@ a{
 
 .programeertalen{
     position: absolute;
-    height: 300px;
-    width: 535px;
-    left: 64%;
+    height: 150px;
+    width: 268px;
+    left: 900px;
+    bottom: 200px;
+}
+.github-foto{
+    position: absolute;
+    height: 150px;
+    width: 268px;
+    left: 860px;
+    bottom: 30px;
+}
+.toekomst-foto{
+    position: absolute;
+    height: 150px;
+    width: 268px;
+    left: 900px;
+    bottom: -120px;
+}
+
+
+
+/* Wesley css over ons */
+
+
+.container-over-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 1000px;
+    
+}
+
+.over-title{
+    display: flex;
+    margin-top: 10px;
+    font-size: 40px;
+    color:#3C0246;
+    font-family: "Agbalumo", sans-serif;
+    margin-bottom: 30px;
+}
+
+.container-over-1{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: white;
+}
+
+.over-subtitle{
+    margin-left: 100px;
+    font-family: "Faster One", cursive;
+    font-size: 32px;
+}
+
+.over-subtitle-2{
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+.over-block{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 225px;
+    width: 800px;
+    background-color: #9481FC;
+    border-radius: 50px;
+    color: white;
+}
+
+.over-block-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-inline: 30px;
+    font-family: 'Doppio One', sans-serif;
+}
+
+.over-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 420px;
+    background-color: white;
+
+}
+
+.image-over{
+    height: 400px;
+    width: 700px;
+}
+
+
+
+
+/*Kerem CSS */
+
+.container-contact {
+    width: 1000px;
+    height: auto;
+    background-color: white;
+}
+
+.main-content {
+    padding: 60px 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 48px;
+    color: #3C0246;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contact-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #333;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    border-radius: 15px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #6b2d5c;
+}
+
+.send-button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 40px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #555;
+}
+
+.info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.time-text,
+.hours {
+    font-size: 14px;
+    color: #333;
+    font-family: "Grandstander", cursive;
+}
+
+.time-text {
+    margin-bottom: 5px;
+}
+
+.hours {
+    margin-bottom: 20px;
+}
+
+.phone-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.phone-button:hover {
+    background-color: #00a5bb;
+}
+
+.phone-number {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Fredoka One", cursive;
+    color: #6b2d5c;
+}
+
+.phone-label {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
 }
