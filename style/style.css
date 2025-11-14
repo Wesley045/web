@@ -243,7 +243,6 @@ a{
     width: 30px;
 }
 
-
 footer{
     display: flex;
     justify-content: center;
@@ -285,7 +284,6 @@ footer{
     margin-bottom: 30px;
 }
 
-
 .text1p2{
     color: #696969;
     margin-left: 50px;
@@ -298,7 +296,6 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 
 .programeertalen{
     position: absolute;
